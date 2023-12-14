@@ -6,9 +6,9 @@ import { NextResponse } from "next/server";
 export const config = {
   matcher: [
     "/dashboard/user/:path*",
-    "/dashboard/admin/:path*",
-    "/api/user/:path*",
-    "/api/admin/:path*",
+    //"/dashboard/admin/:path*",
+    //"/api/user/:path*",
+    //"/api/admin/:path*",
   ],
 };
 export default withAuth(

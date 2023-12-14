@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Dashboard = () => {
+export default function Dashboard ()  {
   return <div>Dashboard is protected</div>;
 };
